@@ -20,4 +20,7 @@ fromCategory("inventory")
     ["inventory.capicityUpdated"](state, event) {
       state.capacity = event.data.capacity;
     },
+    ["inventory.functionableUpdated"](state, event) {
+      state.functionable = event.data.functionable;
+    },
   });
