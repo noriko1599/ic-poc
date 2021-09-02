@@ -1,0 +1,18 @@
+{
+  "name": "decoder159-ic-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@eventstore/db-client": "^2.1.0",
+    "nodemon": "^2.0.12",
+    "uuid": "^8.3.2"
+  }
+}
