@@ -1,4 +1,4 @@
-fromCategory("incentory")
+fromCategory("inventory")
   .foreachStream()
   .when({
     $init() {
