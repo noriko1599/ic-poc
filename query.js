@@ -20,5 +20,4 @@ fromCategory("incentory")
     ["inventory.capicityUpdated"](state, event) {
       state.capacity = event.data.capacity;
     },
-  })
-  .outputState();
+  });
